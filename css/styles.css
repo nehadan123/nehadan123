@@ -1,0 +1,95 @@
+body {
+    background-color: lightblue;
+    font-family: sans-serif;
+    margin-bottom: 5px;
+}
+h1 {
+    font-size: 2rem;
+    color: black;
+}
+h2 {
+    color: black;
+    font-size: 1.5rem;
+}
+h3{
+    color: black;
+    font-size: 1.2rem;
+}
+p {
+    color: black;
+    font-size: 1.2rem;
+}
+header {
+    background-color: #1b3a4b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+header h1 {
+    color: white;
+}
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 10px;
+    padding: 0;
+}
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border: 2px solid transparent;
+    border-radius: 4px;
+}
+nav a:hover {
+    background-color: #3f7ea6;
+    position: relative;
+    top: -2px;
+}
+nav a:focus {
+    outline: none;
+    border-color: #ffd166;
+}
+#main-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.topic-section {
+    background-color: white;
+    border: 1px solid #cfe3ec;
+    border-radius: 6px;
+    padding: 16px 20px;
+    margin: 20px 0;
+}
+.shark-figure {
+    float: right;
+    width: 40%;
+    max-width: 280px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.shark-figure img {
+    width: 100%;
+    border-radius: 6px;
+    border: 3px solid #1b3a4b;
+}
+.shark-figure figcaption {
+    font-size: 0.85rem;
+    color: #555;
+    text-align: center;
+    margin-top: 6px;
+}
+#main-content, .topic-section {
+    overflow: hidden;
+}
+footer {
+    background-color: #1b3a4b;
+    color: white;
+    text-align: center;
+    padding: 14px;
+}
